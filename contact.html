@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Owner &amp; Schedule Visit | Hamid Residency Khagrabari</title>
+  
+  <meta name="description" content="Connect directly with the owner of Hamid Residency in Khagrabari, Cooch Behar. Schedule an in-person viewing or enquire via WhatsApp with zero brokerage.">
+  <link rel="canonical" href="https://hamidresidency.in/contact.html">
+
+  <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-bar-left">
+        <span class="top-pill highlight">✓ Direct from Owner</span>
+        <span>📍 Khagrabari, Cooch Behar, West Bengal</span>
+      </div>
+      <div class="top-bar-right">
+        <a href="tel:+918420838820">Direct Call: +91 84208 38820</a>
+        <a href="https://wa.me/918420838820?text=Hello,%20I%20am%20contacting%20regarding%20Hamid%20Residency." target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <div class="header-inner">
+        <a href="index.html" class="logo-wrapper">
+          <img src="assets/images/logo.svg" alt="Hamid Residency" class="brand-logo-img">
+        </a>
+        <nav class="main-nav" id="mainNav">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="floor-plans.html" class="nav-link">Floor Breakdown</a>
+          <a href="location.html" class="nav-link">Location &amp; Transit</a>
+          <a href="contact.html" class="nav-link active">Contact &amp; Visit</a>
+        </nav>
+        <div class="header-cta-group">
+          <a href="tel:+918420838820" class="btn btn-secondary btn-sm">Call Landlord</a>
+        </div>
+        <button class="nav-toggle-btn" id="navToggleBtn" aria-label="Toggle Navigation">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <section style="background: linear-gradient(180deg, #ffffff 0%, var(--primary-tint) 100%); padding: 3.5rem 0 2.5rem; border-bottom: 1px solid var(--neutral-200);">
+    <div class="container">
+      <span class="section-pretitle">Direct Connection</span>
+      <h1 style="font-size: 2.5rem; margin-bottom: 0.75rem;">Contact &amp; Arrange an In-Person Visit</h1>
+      <p style="max-width: 680px; color: var(--neutral-600); font-size: 1.05rem;">
+        Speak directly with the property owner. No middleman broker commissions, no confusing negotiations.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact Grid -->
+  <section class="section">
+    <div class="container">
+      <div class="enquiry-grid">
+        <!-- Form -->
+        <div class="enquiry-form-card">
+          <div class="enquiry-form-header">
+            <h3>Send a Direct Rental Enquiry</h3>
+            <p>We usually reply on WhatsApp within minutes during normal day hours.</p>
+          </div>
+
+          <form id="rentalEnquiryForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="tenantName">Your Full Name *</label>
+                <input type="text" id="tenantName" name="tenant_name" class="form-control" placeholder="e.g. Subhajit Roy" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="tenantPhone">Mobile / WhatsApp *</label>
+                <input type="tel" id="tenantPhone" name="tenant_phone" class="form-control" placeholder="e.g. 84208 38820" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="tenantType">Tenant Type</label>
+                <select id="tenantType" name="tenant_type" class="form-control">
+                  <option value="Family" selected>Family</option>
+                  <option value="Working Professional">Working Professional</option>
+                  <option value="Doctor / Hospital Staff">Doctor / Medical Staff (MJN MCH)</option>
+                  <option value="Railway / Govt Officer">Railway / Govt Officer</option>
+                  <option value="Corporate / Institution">Company Lease</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="preferredFloor">Floor Preference</label>
+                <select id="preferredFloor" name="preferred_floor" class="form-control">
+                  <option value="First Floor (Featured Unit)">First Floor (Featured with Modular Kitchen)</option>
+                  <option value="Ground Floor">Ground Floor</option>
+                  <option value="Second Floor">Second Floor</option>
+                  <option value="Any Available Unit" selected>Any Available Floor</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="tenantNotes">Message or Visit Timing Request</label>
+              <textarea id="tenantNotes" name="tenant_notes" class="form-control" rows="3" placeholder="Tell us when you would like to visit or any specific questions..."></textarea>
+            </div>
+
+            <div class="form-actions">
+              <button type="button" id="sendWhatsappBtn" class="btn btn-whatsapp btn-lg">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                Send via WhatsApp (Instant)
+              </button>
+              <button type="submit" class="btn btn-secondary">
+                Submit for Callback
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Direct Contact Details -->
+        <div class="enquiry-side-card">
+          <div class="direct-call-card">
+            <h4>Direct Phone Call</h4>
+            <p>Direct conversation with the owner. Feel free to call to discuss availability and book a walk-through.</p>
+            <span class="call-number-badge">+91 84208 38820</span>
+            <a href="tel:+918420838820" class="btn btn-gold" style="width: 100%;">Call Landlord Directly</a>
+          </div>
+
+          <div class="owner-trust-card">
+            <h4>Property Location &amp; Hours</h4>
+            <p style="font-size: 0.9rem; color: var(--neutral-600); margin-bottom: 1rem;">
+              <strong>Hamid Residency</strong><br>
+              Khagrabari, Cooch Behar<br>
+              West Bengal, PIN 736179, India
+            </p>
+            <p style="font-size: 0.85rem; color: var(--neutral-500); margin-bottom: 1rem;">
+              <strong>Visiting Hours:</strong><br>
+              Monday – Sunday: 9:00 AM – 7:00 PM<br>
+              <em>(Kindly confirm time prior to arrival)</em>
+            </p>
+            <a href="https://www.google.com/maps/place/Hamid+Residency/@26.342763,89.4427175,17z/data=!4m6!3m5!1s0x39e2ff03bf13087d:0x9c86ab54c8563e05!8m2!3d26.342763!4d89.4452924!16s%2Fg%2F11xnq7nx8s" target="_blank" rel="noopener" class="btn btn-secondary btn-sm" style="width: 100%; margin-bottom: 0.5rem;">
+              View on Google Maps
+            </a>
+            <a href="https://www.google.com/maps/dir/?api=1&destination=26.342763,89.4452924" target="_blank" rel="noopener" class="btn btn-primary btn-sm" style="width: 100%;">
+              Get Directions
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom" style="border: 0; padding-top: 0;">
+        <div>&copy; 2026 Hamid Residency, Khagrabari, Cooch Behar. Direct Owner Rental.</div>
+        <div><a href="index.html" style="color: #c4d7cf;">Return to Home</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/enquiry.js"></script>
+</body>
+</html>

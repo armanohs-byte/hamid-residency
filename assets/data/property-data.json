@@ -1,0 +1,95 @@
+{
+  "property": {
+    "name": "Hamid Residency",
+    "tagline": "Modern 3-Storey Residential Rental Property in Khagrabari",
+    "location": {
+      "address": "Khagrabari",
+      "city": "Cooch Behar",
+      "state": "West Bengal",
+      "country": "India",
+      "postalCode": "736179",
+      "latitude": 26.342763,
+      "longitude": 89.4452924,
+      "googleMapsPlaceUrl": "https://www.google.com/maps/place/Hamid+Residency/@26.342763,89.4427175,17z/data=!4m6!3m5!1s0x39e2ff03bf13087d:0x9c86ab54c8563e05!8m2!3d26.342763!4d89.4452924!16s%2Fg%2F11xnq7nx8s",
+      "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=26.342763,89.4452924",
+      "embedUrl": "https://maps.google.com/maps?q=26.342763,89.4452924+(Hamid+Residency)&t=&z=17&ie=UTF8&iwloc=B&output=embed"
+    },
+    "structure": "Three-Storey Standalone Residential Building",
+    "usage": "Residential Rental Property (Families / Working Professionals / Corporate)",
+    "verifiedFeatures": [
+      "Three-storey residential structure with independent floor access",
+      "Modular kitchen equipped with modern black kitchen chimney",
+      "Extensive white and whitish premium-finish wall & floor tile work",
+      "Modern tiled bathrooms with contemporary sanitary fittings",
+      "Large white-framed glass / uPVC-style windows for ample natural daylight & cross-ventilation",
+      "First floor highlighted with standout premium interior finish and amenities",
+      "Peaceful, clean, and secure residential neighborhood setting",
+      "Direct owner dealing (Zero brokerage / No middleman commissions)"
+    ],
+    "floors": [
+      {
+        "level": "Ground Floor",
+        "title": "Ground Floor Residential Unit",
+        "highlight": "Convenient Ground-Level Access",
+        "description": "Ideal for families preferring zero-stair access, senior family members, or quick daily movement. Features bright tiled rooms, clean bathroom facilities, and good ventilation."
+      },
+      {
+        "level": "First Floor",
+        "title": "First Floor Premium Unit (Featured Floor)",
+        "highlight": "Flagship Living Space with Modular Kitchen & Chimney",
+        "description": "The standout unit of Hamid Residency. Outfitted with an immaculate modular kitchen featuring white/whitish gloss tile work and a sleek black chimney, contemporary tiled bathrooms, and large white-framed glass windows offering serene daylight."
+      },
+      {
+        "level": "Second Floor",
+        "title": "Upper Residential Unit",
+        "highlight": "Elevated Peace & Panoramic Green Views",
+        "description": "Quiet, airy upper-floor living with unobstructed natural breeze, privacy, modern tiled interiors, and white-framed windows overlooking local neighborhood greenery."
+      }
+    ],
+    "connectivity": [
+      {
+        "destination": "New Cooch Behar Junction (NCB)",
+        "distance": "Approx. 3.5 km",
+        "travelTime": "8-12 mins by Toto / Auto / Car",
+        "category": "Transit Hub",
+        "note": "Major North-East Frontier Railway terminal with direct Shatabdi, Rajdhani, Padatik, and Vande Bharat connections."
+      },
+      {
+        "destination": "National Highway 31 (NH-31 / NH-17)",
+        "distance": "Direct & Immediate Access (< 1 km)",
+        "travelTime": "2-3 mins",
+        "category": "Highway Arterial",
+        "note": "Smooth connectivity towards Siliguri, Jalpaiguri, Alipurduar, and Assam corridor."
+      },
+      {
+        "destination": "Maharaja Jitendra Narayan Medical College & Hospital (MJN MCH)",
+        "distance": "Approx. 4 km",
+        "travelTime": "10-15 mins",
+        "category": "Healthcare",
+        "note": "Premier district government hospital and multi-specialty healthcare referral center."
+      },
+      {
+        "destination": "Cooch Behar Royal Palace & Madan Mohan Bari",
+        "distance": "Approx. 4.5 km",
+        "travelTime": "12-15 mins",
+        "category": "Heritage & Center",
+        "note": "Historic heart of Cooch Behar town, central markets, and civic parks."
+      },
+      {
+        "destination": "Prominent Schools & Colleges",
+        "distance": "1 to 5 km radius",
+        "travelTime": "5-15 mins",
+        "category": "Education",
+        "note": "Manindranath High School (Khagrabari), Rambhola High School, Benevolence School, Narayana School, and Cooch Behar Government Engineering College."
+      }
+    ],
+    "contact": {
+      "phoneDisplay": "+91 84208 38820 (Direct Owner)",
+      "phoneRaw": "+918420838820",
+      "whatsappNumber": "+918420838820",
+      "whatsappDefaultMessage": "Hello, I am interested in renting a residential unit at Hamid Residency, Khagrabari, Cooch Behar. I would like to check availability and arrange a visit.",
+      "email": "enquiries@hamidresidency.in",
+      "visitingHours": "9:00 AM – 7:00 PM (Prior appointment recommended)"
+    }
+  }
+}
